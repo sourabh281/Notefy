@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edtLoginEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:hint="@string/edtLoginEmail"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:autofillHints="@string/edtLoginEmail"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/primaryTextColor" />
+
+    <EditText
+        android:id="@+id/edtLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="5dp"
+        android:autofillHints="@string/edtLoginPassword"
+        android:textStyle="bold"
+        android:hint="@string/edtLoginPassword"
+        android:inputType="textPassword|numberPassword"
+        android:padding="5dp"
+        android:textSize="24sp"
+        android:textColor="@color/primaryTextColor" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtForgotPassword"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryTextColor"/>
+        <TextView
+            android:id="@+id/txtResetPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtResetPassword"
+            android:textSize="18sp"
+            android:layout_marginStart="5dp"
+            android:textStyle="bold|italic"
+            android:textColor="#304ffe"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnLoginOrSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="5dp"
+        android:background="@color/primaryDarkColor"
+        android:text="@string/btnLogin"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/txtDoNotWantToLoginOrSignUp"
+    android:textSize="24sp"
+    android:textColor="@color/secondaryDarkColor"
+    android:textStyle="italic|bold"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="40dp"
+    android:padding="5dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    android:layout_marginTop="20dp">
+    <EditText
+        android:id="@+id/edtAnonymousLoginEmail"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:autofillHints="@string/edtLoginEmail"
+        android:textStyle="bold"
+        android:hint="@string/edtLoginEmail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textSize="24sp"
+        android:textColor="@color/primaryTextColor"
+        android:layout_weight="80"
+        android:layout_gravity="bottom"/>
+    <Button
+        android:id="@+id/btnOneTimeLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="5dp"
+        android:text="@string/btnOneTimeLogin"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/secondaryTextColor"
+        android:background="@color/primaryDarkColor"/>
+
+</LinearLayout>
+
+
+
+</LinearLayout>

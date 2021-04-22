@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Notefy</string>
+    <string name="edtLoginEmail">Email</string>
+    <string name="edtLoginPassword">Password</string>
+    <string name="txtForgotPassword">Forgot Password?</string>
+    <string name="txtDoNotHaveAccount">Don\'t Have Account?</string>
+    <string name="txtLoginSignUp">SIGNUP</string>
+    <string name="txtResetPassword">RESET</string>
+    <string name="btnLogin">login</string>
+    <string name="btnOneTimeLogin">one time login</string>
+    <string name="txtDoNotWantToLoginOrSignUp">Don\'t Want to SIGNUP or LOGIN</string>
+    <string name="btnMenuSignUp">SIGNUP</string>
+    <string name="txtSignUpChange">SignUp</string>
+    <string name="txtLoginChange">LogIn</string>
+    <string name="txtWelcomeToNotefy">Welcome to Notefy</string>
+    <string name="txtOneTimeLoginALertDialogMessege">  If you create your account i.e. signup on our app you can access your notes for lifetime, whether you change your mobile or hard reset your device your notes will be safe </string>
+    <string name="txtAnonymousAlertDialogTitle">ALERT! ALERT!</string>
+
+</resources>
