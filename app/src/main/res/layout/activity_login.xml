@@ -90,42 +90,18 @@
     android:layout_marginEnd="5dp"
     android:layout_marginTop="40dp"
     android:padding="5dp"/>
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_marginStart="5dp"
-    android:layout_marginEnd="5dp"
-    android:layout_marginTop="20dp">
-    <EditText
-        android:id="@+id/edtAnonymousLoginEmail"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="5dp"
-        android:autofillHints="@string/edtLoginEmail"
-        android:textStyle="bold"
-        android:hint="@string/edtLoginEmail"
-        android:inputType="textEmailAddress"
-        android:padding="10dp"
-        android:textSize="24sp"
-        android:textColor="@color/primaryTextColor"
-        android:layout_weight="80"
-        android:layout_gravity="bottom"/>
+
     <Button
         android:id="@+id/btnOneTimeLogin"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="20"
         android:padding="5dp"
         android:text="@string/btnOneTimeLogin"
-        android:textSize="18sp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/secondaryTextColor"
-        android:background="@color/primaryDarkColor"/>
-
-</LinearLayout>
-
-
-
+        android:background="@color/primaryDarkColor"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginTop="20dp"/>
 </LinearLayout>

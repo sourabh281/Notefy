@@ -15,5 +15,6 @@
     <string name="txtWelcomeToNotefy">Welcome to Notefy</string>
     <string name="txtOneTimeLoginALertDialogMessege">  If you create your account i.e. signup on our app you can access your notes for lifetime, whether you change your mobile or hard reset your device your notes will be safe </string>
     <string name="txtAnonymousAlertDialogTitle">ALERT! ALERT!</string>
+    <string name="itemLogoutMenu">Logout</string>
 
 </resources>
